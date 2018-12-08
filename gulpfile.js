@@ -16,6 +16,11 @@ gulp.task('js', ['test'], function() {
       .pipe(fs.createWriteStream('dist/bundle.js'))
 })
 
+gulp.task('cp', function() {
+   return gulp.src('public/**/*')
+      .pipe(gulp.dest("dist"))
+})
+
 gulp.task('default', function() {
    gulp.watch(['src/**/*js', 'test/**/*js'], ['js'])
 })
