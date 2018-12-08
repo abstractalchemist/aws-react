@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import aws_exports from './config'
-import Amplify from 'aws-amplify'
+import Amplify, { Auth } from 'aws-amplify'
 //import { withAuthenticator } from 'aws-amplify-react'
 
 Amplify.configure(aws_exports)
