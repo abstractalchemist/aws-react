@@ -1,0 +1,32 @@
+{
+  "name": "aws-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.3",
+    "chai": "^4.2.0",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^6.0.0",
+    "jsdom": "^13.0.0"
+  },
+  "dependencies": {
+    "aws-amplify": "^1.1.13",
+    "aws-amplify-react": "^2.1.7",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "rxjs": "^6.3.3"
+  }
+}
